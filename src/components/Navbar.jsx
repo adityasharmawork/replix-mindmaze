@@ -8,7 +8,8 @@ const links = [
   { to: '/rejected', label: 'Rejected' },
   { to: '/search/email', label: 'Search Email' },
   { to: '/search/room', label: 'Search Room' },
-  { to: '/search/winners/room', label: 'Winners' }
+  { to: '/search/winners/room', label: 'Winners' },
+  { to: '/reviews', label: 'Reviews' }
 ]
 
 export default function Navbar() {

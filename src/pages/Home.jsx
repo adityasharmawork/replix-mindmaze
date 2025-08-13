@@ -37,6 +37,12 @@ export default function Home(){
           <div className="text-lg font-semibold">Search Winners by Room</div>
           <div className="text-sm text-slate-400">Fetch all Winners in a room</div>
         </Link>
+
+        <Link to="/reviews" className="p-4 bg-slate-800 rounded shadow hover:scale-[1.01] transition">
+          <div className="text-lg font-semibold">Reviews</div>
+          <div className="text-sm text-slate-400">See what people say about Replix</div>
+        </Link>
+
       </div>
     </div>
   )
