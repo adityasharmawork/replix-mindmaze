@@ -9,6 +9,7 @@ import SearchEmail from './pages/SearchEmail'
 import SearchRoom from './pages/SearchRoom'
 import SearchWinnersByRoom from './pages/SearchWinnersByRoom'
 import Reviews from './pages/Reviews'
+import Wrong from './pages/Wrong'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/executions" element={<Executions />} />
           <Route path="/accepted" element={<Accepted />} />
           <Route path="/rejected" element={<Rejected />} />
+          <Route path="/wrong" element={<Wrong />} />
           <Route path="/search/email" element={<SearchEmail />} />
           <Route path="/search/room" element={<SearchRoom />} />
           <Route path="/search/winners/room" element={<SearchWinnersByRoom />} />

@@ -23,6 +23,11 @@ export default function Home(){
           <div className="text-sm text-slate-400">View rejected submissions</div>
         </Link>
 
+        <Link to="/wrong" className="p-4 bg-slate-800 rounded shadow hover:scale-[1.01] transition">
+          <div className="text-lg font-semibold">Wrong Answer</div>
+          <div className="text-sm text-slate-400">View wrong answer submissions</div>
+        </Link>
+
         <Link to="/search/email" className="p-4 bg-slate-800 rounded shadow hover:scale-[1.01] transition">
           <div className="text-lg font-semibold">Search by Email</div>
           <div className="text-sm text-slate-400">Fetch all submissions by an email</div>

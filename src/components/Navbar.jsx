@@ -6,6 +6,7 @@ const links = [
   { to: '/executions', label: 'Executions' },
   { to: '/accepted', label: 'Accepted' },
   { to: '/rejected', label: 'Rejected' },
+  { to: '/wrong', label: 'Wrong' },
   { to: '/search/email', label: 'Search Email' },
   { to: '/search/room', label: 'Search Room' },
   { to: '/search/winners/room', label: 'Winners' },
