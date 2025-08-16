@@ -64,6 +64,7 @@ import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 
 // SyntaxHighlighter.registerLanguage('cpp', cpp)
 
+
 export default function DetailsModal({ item, onClose }) {
   const [copied, setCopied] = useState(false)
 
